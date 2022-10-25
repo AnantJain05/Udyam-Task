@@ -1,0 +1,15 @@
+.casts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 10px;
+  }
+  
+  .casts__item__img {
+    padding-top: 160px;
+    background-size: cover;
+    margin-bottom: 0.5rem;
+  }
+  
+  .casts__item__name {
+    font-size: 0.8rem;
+  }
